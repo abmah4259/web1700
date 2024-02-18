@@ -88,17 +88,3 @@ function displayTickets() {
     });
 }
 
-function clearInputs() {
-    document.getElementById('firstname').value = '';
-    document.getElementById('lastname').value = '';
-    document.getElementById('email').value = '';
-    document.getElementById('phone').value = '';
-    document.getElementById('quantity').value = '';
-
-    // fjerne feilmeldinger
-    document.getElementById('firstnameError').innerText = '';
-    document.getElementById('lastnameError').innerText = '';
-    document.getElementById('emailError').innerText = '';
-    document.getElementById('phoneError').innerText = '';
-    document.getElementById('quantityError').innerText= '';
-}
